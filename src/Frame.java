@@ -3,8 +3,13 @@ public class Frame {
 	private int secondThrow;
 	
 	public Frame(int firstThrow, int secondThrow) throws BowlingException {
+		if (firstThrow < 0 || secondThrow < 0)
+			throw new BowlingException("Negative throw");
+		
 		if ((firstThrow + secondThrow) > 10)
-			throw new BowlingException();
+			throw new BowlingException("Sum of throws is too much");
+		
+		
 		
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
