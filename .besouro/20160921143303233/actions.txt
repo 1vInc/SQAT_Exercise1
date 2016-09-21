@@ -201,3 +201,8 @@ RefactoringAction 1474462119952 TestBowling.java ADD void notSpare()/2 METHOD
 RefactoringAction 1474462122470 TestBowling.java RENAME notSpare()/2=>void notSpare2() METHOD
 EditAction 1474462127576 TestBowling.java 3145 12 49 10
 EditAction 1474462137197 TestBowling.java 3147 12 49 10
+UnitTestCaseAction 1474462156774 TestBowling.java OK
+UnitTestSessionAction 1474462156775 TestBowling.java OK
+RefactoringAction 1474462323625 TestBowling.java ADD void strikeAnd FIELD
+RefactoringAction 1474462330641 TestBowling.java RENAME strikeAnd=>void strikeAndSpare() METHOD
+EditAction 1474462365115 TestBowling.java 3274 13 51 10

@@ -129,5 +129,11 @@ public class TestBowling {
 		Frame aFrame = new Frame(firstThrow, secondThrow);
 		assertTrue(false == aFrame.isSpare());
 	}
+	
+	@Test
+	public void strikeAndSpare() throws BowlingException {
+		int[] fGames = { 10,4 };
+		int[] sGames = { 0,6 };
+	}
 
 }
