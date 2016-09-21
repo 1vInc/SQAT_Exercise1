@@ -39,7 +39,7 @@ public class Frame {
 		
 		
 		
-		return firstThrow + secondThrow;
+		return sumOfThrows();
 	}
 
 	//returns whether the frame is a strike or not
