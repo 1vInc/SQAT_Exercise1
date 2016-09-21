@@ -213,3 +213,4 @@ RefactoringAction 1474462680179 Frame.java ADD void subsequentFrame() METHOD
 RefactoringAction 1474462770351 Frame.java RENAME subsequentFrame()=>void subsequentFrame(Frame) METHOD
 EditAction 1474462794217 Frame.java 1311 7 13 0
 EditAction 1474462829338 BowlingGame.java 1814 7 9 0
+EditAction 1474462912949 BowlingGame.java 1892 7 5 0
