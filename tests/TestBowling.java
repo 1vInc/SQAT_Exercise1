@@ -19,5 +19,13 @@ public class TestBowling {
 		assertTrue(firstThrow == aFrame.getFirstThrow() &&
 						secondThrow == aFrame.getSecondThrow());
 	}
+	
+	@Test
+	public void frameScore() throws BowlingException {
+		int firstThrow = 2;
+		int secondThrow = 6;
+
+		Frame aFrame = new Frame(firstThrow, secondThrow);
+	}
 
 }

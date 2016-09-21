@@ -84,3 +84,6 @@ EditAction 1474460164265 TestBowling.java 442 2 5 1
 UnitTestCaseAction 1474460174628 TestBowling.java FAIL
 UnitTestSessionAction 1474460174629 TestBowling.java FAIL
 EditAction 1474460185456 TestBowling.java 446 1 4 1
+RefactoringAction 1474460202937 TestBowling.java ADD void frameScore FIELD
+RefactoringAction 1474460204450 TestBowling.java RENAME frameScore=>void frameScore() METHOD
+EditAction 1474460236626 TestBowling.java 617 2 7 1
