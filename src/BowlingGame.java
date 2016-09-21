@@ -10,7 +10,11 @@ public class BowlingGame {
 	private Frame bonus;
 	
 	public BowlingGame(){
-		Frame aFrame = new Frame(1,1);
+		try {
+			Frame aFrame = new Frame(1,1);
+		} catch (BowlingException e) {
+			System.err.println("Trying to create frame with invalid score");
+		}
 	}
 	
 	// adds a frame to the game

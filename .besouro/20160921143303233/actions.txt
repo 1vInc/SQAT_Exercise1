@@ -12,3 +12,17 @@ EditAction 1474458361658 BowlingGame.java 660 4 2 0
 EditAction 1474458380533 Frame.java 745 6 8 0
 CompilationAction 1474458382325 Frame.java
 EditAction 1474458479893 Frame.java 743 6 8 0
+CompilationAction 1474458481860 Frame.java
+CompilationAction 1474458509250 Frame.java
+CompilationAction 1474458509398 Frame.java
+CompilationAction 1474458534120 Frame.java
+CompilationAction 1474458534298 BowlingGame.java
+CompilationAction 1474458616394 BowlingGame.java
+RefactoringAction 1474458683579 BowlingException.java ADD string get FIELD
+RefactoringAction 1474458686087 BowlingException.java RENAME get=>string getMessage() METHOD
+RefactoringAction 1474458699143 BowlingException.java ADD BowlingException() METHOD
+RefactoringAction 1474458711708 BowlingException.java ADD String errms FIELD
+RefactoringAction 1474458712727 BowlingException.java RENAME errms=>String errmsg FIELD
+RefactoringAction 1474458724759 BowlingException.java ADD BowlingException()/2 METHOD
+RefactoringAction 1474458737325 BowlingException.java RENAME BowlingException()/2=>BowlingException(String) METHOD
+EditAction 1474458769383 BowlingException.java 254 3 3 0
