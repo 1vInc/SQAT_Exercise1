@@ -11,27 +11,29 @@ public class BowlingGame {
 	private Frame bonus;
 	
 	public BowlingGame(){
-		int[] fGames = { 1,1,1,1,1,1,1,1,1,1 };
-		int[] sGames = { 1,1,1,1,1,1,1,1,1,1 };
 		
-		try {
-			Frame aFrame = new Frame(1,1);
-		} catch (BowlingException e) {
-			System.err.println("Trying to create invalid frame: " + e.getMessage());
-		}
+	}
+	
+	/*int[] fGames = { 1,1,1,1,1,1,1,1,1,1 };
+	int[] sGames = { 1,1,1,1,1,1,1,1,1,1 };
+	
+	try {
+		Frame aFrame = new Frame(1,1);
+	} catch (BowlingException e) {
+		System.err.println("Trying to create invalid frame: " + e.getMessage());
+	}
 
-		try {
-			createGame(fGames, sGames, game);
-		} catch (BowlingException e) {
-			System.err.println("Trying to create invalid game: " + e.getMessage());
-		}
+	try {
+		createGame(fGames, sGames, game);
+	} catch (BowlingException e) {
+		System.err.println("Trying to create invalid game: " + e.getMessage());
+	}*/
+	
+	public void createGame(int first[], int second[]) throws BowlingException {
+		doCreateGame(first, second);
 	}
 	
-	public void createGame(int first[], int second[], List<Frame> aGame) throws BowlingException {
-		doCreateGame(first, second, aGame);
-	}
-	
-	private void doCreateGame(int first[], int second[], List<Frame> aGame) throws BowlingException {
+	private void doCreateGame(int first[], int second[]) throws BowlingException {
 		if (first.length != second.length)
 			throw new BowlingException("Throw amounts do not match");
 		

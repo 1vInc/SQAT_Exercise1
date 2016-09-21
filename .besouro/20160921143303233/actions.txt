@@ -93,3 +93,38 @@ UnitTestSessionAction 1474460303498 TestBowling.java OK
 RefactoringAction 1474460325684 TestBowling.java ADD void makeGame FIELD
 RefactoringAction 1474460332198 TestBowling.java RENAME makeGame=>void makeGame() METHOD
 EditAction 1474460428556 TestBowling.java 1002 3 8 2
+CompilationAction 1474460430263 TestBowling.java
+CompilationAction 1474460430264 TestBowling.java
+CompilationAction 1474460430265 TestBowling.java
+CompilationAction 1474460430266 TestBowling.java
+RefactoringAction 1474460437955 TestBowling.java ADD BowlingException e FIELD
+CompilationAction 1474460443650 TestBowling.java
+CompilationAction 1474460443652 TestBowling.java
+CompilationAction 1474460443845 TestBowling.java
+CompilationAction 1474460443846 TestBowling.java
+CompilationAction 1474460462674 TestBowling.java
+CompilationAction 1474460462676 TestBowling.java
+CompilationAction 1474460462828 TestBowling.java
+CompilationAction 1474460462829 TestBowling.java
+CompilationAction 1474460462834 TestBowling.java
+CompilationAction 1474460475715 TestBowling.java
+CompilationAction 1474460475717 TestBowling.java
+CompilationAction 1474460475910 TestBowling.java
+CompilationAction 1474460475911 TestBowling.java
+CompilationAction 1474460492790 TestBowling.java
+CompilationAction 1474460492792 TestBowling.java
+CompilationAction 1474460492937 TestBowling.java
+RefactoringAction 1474460531266 BowlingGame.java ADD int FIELD
+RefactoringAction 1474460531268 BowlingGame.java ADD int FIELD
+RefactoringAction 1474460531269 BowlingGame.java ADD BowlingException e FIELD
+RefactoringAction 1474460531271 BowlingGame.java ADD BowlingException e/2 FIELD
+RefactoringAction 1474460535810 BowlingGame.java REMOVE e FIELD
+RefactoringAction 1474460535811 BowlingGame.java REMOVE e/2 FIELD
+RefactoringAction 1474460535813 BowlingGame.java REMOVE fGames FIELD
+RefactoringAction 1474460535815 BowlingGame.java REMOVE sGames FIELD
+CompilationAction 1474460614783 TestBowling.java
+CompilationAction 1474460614983 TestBowling.java
+CompilationAction 1474460614984 TestBowling.java
+RefactoringAction 1474460627381 BowlingGame.java RENAME createGame(int=>void createGame(int METHOD
+RefactoringAction 1474460636412 BowlingGame.java RENAME doCreateGame(int=>void doCreateGame(int METHOD
+EditAction 1474460636944 BowlingGame.java 1642 6 6 0
