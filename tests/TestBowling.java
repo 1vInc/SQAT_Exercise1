@@ -26,6 +26,8 @@ public class TestBowling {
 		int secondThrow = 6;
 
 		Frame aFrame = new Frame(firstThrow, secondThrow);
+		
+		assertTrue((firstThrow + secondThrow) == aFrame.score());
 	}
 
 }
