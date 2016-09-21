@@ -281,3 +281,6 @@ RefactoringAction 1474464663069 TestBowling.java ADD void assertTrue() METHOD
 EditAction 1474464703048 TestBowling.java 5496 19 92 17
 EditAction 1474464715806 TestBowling.java 5497 19 92 17
 EditAction 1474464718703 TestBowling.java 5497 19 92 17
+UnitTestCaseAction 1474464724424 TestBowling.java OK
+UnitTestSessionAction 1474464724425 TestBowling.java OK
+EditAction 1474464733038 TestBowling.java 5505 19 92 17

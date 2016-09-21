@@ -207,6 +207,7 @@ public class TestBowling {
 		assertTrue(17 == sFrame.score());
 	}
 	
+	@Test
 	public void strikeAndSpareGame() throws BowlingException {
 		int[] fGames = { 10,4,7,3,4,5,3,4,8,2 };
 		int[] sGames = { 0,6,2,6,4,3,3,5,1,6 };
