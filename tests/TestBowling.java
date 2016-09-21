@@ -214,6 +214,6 @@ public class TestBowling {
 		BowlingGame bowlingGame = new BowlingGame();
 		bowlingGame.createGame(fGames, sGames);
 		
-		assertTrue(bowlingGame.score() == 88);
+		assertTrue(bowlingGame.score() == 104);
 	}
 }
