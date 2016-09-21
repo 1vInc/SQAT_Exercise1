@@ -1,6 +1,7 @@
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
+	private Frame subsequentFrame;
 	
 	public Frame(int firstThrow, int secondThrow) throws BowlingException {
 		if (firstThrow < 0 || secondThrow < 0)
@@ -11,6 +12,7 @@ public class Frame {
 		
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
+		subsequentFrame = null;
 	}
 	
 	public int getFirstThrow() {
