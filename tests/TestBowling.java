@@ -77,6 +77,19 @@ public class TestBowling {
 	}
 	
 	@Test
+	public void strikeScore() throws BowlingException {
+		int[] fGames = { 10,3 };
+		int[] sGames = { 0,6 };
+		
+		Frame fFrame = new Frame(fGames[0], sGames[0]);
+		Frame sFrame = new Frame(fGames[1], sGames[1]);
+		
+		fFrame.subsequentFrame(sFrame);
+		
+		assertTrue(19 == fFrame.score());
+	}
+	
+	@Test
 	public void notStrike() throws BowlingException {
 		int firstThrow = 0;
 		int secondThrow = 10;
@@ -134,6 +147,11 @@ public class TestBowling {
 	public void strikeAndSpare() throws BowlingException {
 		int[] fGames = { 10,4 };
 		int[] sGames = { 0,6 };
+		
+		Frame fFrame = new Frame(fGames[0], sGames[0]);
+		Frame sFrame = new Frame(fGames[1], sGames[1]);
+		
+		
 	}
 
 }

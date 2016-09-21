@@ -234,3 +234,4 @@ CompilationAction 1474463142550 BowlingGame.java
 CompilationAction 1474463163352 BowlingGame.java
 RefactoringAction 1474463207074 TestBowling.java ADD void strikeScore() METHOD
 EditAction 1474463318427 Frame.java 1428 7 14 0
+EditAction 1474463453155 Frame.java 1436 7 14 0

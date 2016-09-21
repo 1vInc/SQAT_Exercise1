@@ -37,6 +37,8 @@ public class Frame {
 		if (null != subsequentFrame && isStrike())
 			return firstThrow + secondThrow + subsequentFrame.score();
 		
+		
+		
 		return firstThrow + secondThrow;
 	}
 
