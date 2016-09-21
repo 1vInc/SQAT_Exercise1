@@ -32,3 +32,39 @@ EditAction 1474458855520 Frame.java 901 6 9 0
 EditAction 1474458884343 Frame.java 901 6 9 0
 EditAction 1474458901830 Frame.java 924 6 9 0
 EditAction 1474459004525 BowlingGame.java 786 4 2 0
+RefactoringAction 1474459048445 BowlingGame.java ADD List<Frame> game FIELD
+RefactoringAction 1474459132694 BowlingGame.java ADD void createGame FIELD
+RefactoringAction 1474459135208 BowlingGame.java RENAME createGame=>void createGame() METHOD
+RefactoringAction 1474459143739 BowlingGame.java RENAME createGame()=>void createGame(int) METHOD
+RefactoringAction 1474459152766 BowlingGame.java RENAME createGame(int)=>void createGame(int, int) METHOD
+RefactoringAction 1474459175852 BowlingGame.java RENAME createGame(int, int)=>void createGame(int METHOD
+RefactoringAction 1474459177874 BowlingGame.java RENAME createGame(int=>void createGame(int METHOD
+CompilationAction 1474459250731 BowlingGame.java
+CompilationAction 1474459250733 BowlingGame.java
+RefactoringAction 1474459276752 BowlingGame.java RENAME createGame(int=>void createGame(int METHOD
+CompilationAction 1474459405171 BowlingGame.java
+CompilationAction 1474459405173 BowlingGame.java
+CompilationAction 1474459405355 BowlingGame.java
+CompilationAction 1474459405356 BowlingGame.java
+CompilationAction 1474459405357 BowlingGame.java
+CompilationAction 1474459456615 BowlingGame.java
+CompilationAction 1474459456618 BowlingGame.java
+CompilationAction 1474459456619 BowlingGame.java
+CompilationAction 1474459456800 BowlingGame.java
+CompilationAction 1474459456801 BowlingGame.java
+CompilationAction 1474459456802 BowlingGame.java
+CompilationAction 1474459456803 BowlingGame.java
+CompilationAction 1474459488525 BowlingGame.java
+CompilationAction 1474459488527 BowlingGame.java
+CompilationAction 1474459488528 BowlingGame.java
+CompilationAction 1474459488672 BowlingGame.java
+CompilationAction 1474459488673 BowlingGame.java
+CompilationAction 1474459488674 BowlingGame.java
+CompilationAction 1474459585413 BowlingGame.java
+CompilationAction 1474459585415 BowlingGame.java
+CompilationAction 1474459585416 BowlingGame.java
+CompilationAction 1474459585593 BowlingGame.java
+CompilationAction 1474459585594 BowlingGame.java
+CompilationAction 1474459702493 BowlingGame.java
+CompilationAction 1474459702494 BowlingGame.java
+EditAction 1474459788594 BowlingGame.java 1543 5 9 0
