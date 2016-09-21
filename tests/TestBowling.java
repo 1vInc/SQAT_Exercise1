@@ -42,5 +42,30 @@ public class TestBowling {
 		
 		bowlingGame.createGame(fGames, sGames);
 	}
+	
+	@Test
+	public void gameScore() throws BowlingException {
+		int[] fGames = { 1,3,7,3,4,5,3,4,8,2 };
+		int[] sGames = { 5,6,2,6,4,3,3,5,1,6 };
+		
+		BowlingGame bowlingGame = new BowlingGame();
+		
+		bowlingGame.createGame(fGames, sGames);
+		
+		
+	}
+	
+	private int countGameScore(int[] fGames, int[] sGames) throws BowlingException {
+		int score = 0;
+		
+		if (fGames.size != sGames.size)
+			throw new BowlingException("Amount of first and second throws not equal");
+		
+		for (int i = 0; i < fGames.size) {
+			
+		}
+		
+		return score;
+	}
 
 }

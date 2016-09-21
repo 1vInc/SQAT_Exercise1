@@ -136,3 +136,10 @@ EditAction 1474460850930 BowlingGame.java 1821 7 8 0
 CompilationAction 1474460853302 BowlingGame.java
 CompilationAction 1474460853303 BowlingGame.java
 EditAction 1474460858223 BowlingGame.java 1814 7 9 0
+RefactoringAction 1474460893283 TestBowling.java ADD void gameScore FIELD
+RefactoringAction 1474460899292 TestBowling.java RENAME gameScore=>void gameScore() METHOD
+RefactoringAction 1474460931857 TestBowling.java ADD int countGameScore FIELD
+RefactoringAction 1474460934370 TestBowling.java RENAME countGameScore=>int countGameScore() METHOD
+RefactoringAction 1474460946897 TestBowling.java RENAME countGameScore()=>int countGameScore(int METHOD
+RefactoringAction 1474460950918 TestBowling.java RENAME countGameScore(int=>int countGameScore(int METHOD
+EditAction 1474461153982 TestBowling.java 1547 5 16 2
