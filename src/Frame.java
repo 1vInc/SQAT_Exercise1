@@ -51,6 +51,10 @@ public class Frame {
 		return false;
 	}
 	
+	private int sumOfThrows() {
+		return firstThrow + secondThrow;
+	}
+	
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
 		//to be implemented

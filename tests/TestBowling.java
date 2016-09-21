@@ -90,6 +90,11 @@ public class TestBowling {
 	}
 	
 	@Test
+	public void gameWithStrike() throws BowlingException {
+		fail("Not yet implemented");
+	}
+	
+	@Test
 	public void notStrike() throws BowlingException {
 		int firstThrow = 0;
 		int secondThrow = 10;
