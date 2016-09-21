@@ -37,7 +37,8 @@ public class Frame {
 		if ((null != subsequentFrame) && isStrike())
 			return sumOfThrows() + subsequentFrame.sumOfThrows();
 		
-		
+		if ((null != subsequentFrame) && isSpare())
+			return sumOfThrows() + subsequentFrame.getFirstThrow();
 		
 		return sumOfThrows();
 	}

@@ -54,6 +54,8 @@ public class TestBowling {
 		assertTrue(bowlingGame.score() == countGameScore(fGames, sGames));
 	}
 	
+	
+	/* wrong, fix maybe */
 	private int countGameScore(int[] fGames, int[] sGames) throws BowlingException {
 		int score = 0;
 		
