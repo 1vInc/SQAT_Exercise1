@@ -204,7 +204,7 @@ public class TestBowling {
 		
 		fFrame.subsequentFrame(sFrame);
 		sFrame.subsequentFrame(tFrame);
-		assertTrue(20 == fFrame.score());
+		assertTrue(17 == sFrame.score());
 	}
 	
 	//public void strikeAndSpareGame() throws BowlingException {
