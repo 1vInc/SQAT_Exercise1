@@ -59,6 +59,16 @@ public class BowlingGame {
 	// Returns the game score
 	public int score(){
 		//to be implemented: should return game score 
-		return 0;
+		return return countScore();
+	}
+	
+	private int countScore() {
+		int score = 0;
+		
+		for (int i = 0; i < game.size(); i++) {
+			score += game.get(i).score();
+		}
+		
+		return score;
 	}
 }

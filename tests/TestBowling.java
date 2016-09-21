@@ -41,8 +41,6 @@ public class TestBowling {
 		BowlingGame bowlingGame = new BowlingGame();
 		
 		bowlingGame.createGame(fGames, sGames);
-		
-		createGame(fGames, sGames, game);
 	}
 
 }

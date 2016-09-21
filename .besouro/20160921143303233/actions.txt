@@ -128,3 +128,8 @@ CompilationAction 1474460614984 TestBowling.java
 RefactoringAction 1474460627381 BowlingGame.java RENAME createGame(int=>void createGame(int METHOD
 RefactoringAction 1474460636412 BowlingGame.java RENAME doCreateGame(int=>void doCreateGame(int METHOD
 EditAction 1474460636944 BowlingGame.java 1642 6 6 0
+CompilationAction 1474460638638 TestBowling.java
+UnitTestCaseAction 1474460662622 TestBowling.java OK
+UnitTestSessionAction 1474460662623 TestBowling.java OK
+RefactoringAction 1474460714008 BowlingGame.java ADD int countScore() METHOD
+EditAction 1474460850930 BowlingGame.java 1821 7 8 0
