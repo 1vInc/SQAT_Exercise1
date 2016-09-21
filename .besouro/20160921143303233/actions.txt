@@ -164,3 +164,10 @@ CompilationAction 1474461357413 TestBowling.java
 UnitTestCaseAction 1474461360845 TestBowling.java OK
 UnitTestSessionAction 1474461360846 TestBowling.java OK
 EditAction 1474461655443 Frame.java 975 6 10 0
+RefactoringAction 1474461681775 TestBowling.java ADD void strike() METHOD
+RefactoringAction 1474461726982 TestBowling.java ADD void notStr FIELD
+RefactoringAction 1474461729504 TestBowling.java RENAME notStr=>void notSt FIELD
+RefactoringAction 1474461737518 TestBowling.java RENAME notSt=>void notStrike() METHOD
+RefactoringAction 1474461750556 TestBowling.java ADD void notStrike()/2 METHOD
+RefactoringAction 1474461773177 TestBowling.java RENAME notStrike()/2=>void notStrike2() METHOD
+EditAction 1474461845633 TestBowling.java 2294 8 29 5

@@ -66,5 +66,32 @@ public class TestBowling {
 		
 		return score;
 	}
+	
+	@Test
+	public void strike() throws BowlingException {
+		int firstThrow = 10;
+		int secondThrow = 0;
+		
+		Frame aFrame = new Frame(firstThrow, secondThrow);
+		assertTrue(true == aFrame.isStrike());
+	}
+	
+	@Test
+	public void notStrike() throws BowlingException {
+		int firstThrow = 0;
+		int secondThrow = 10;
+		
+		Frame aFrame = new Frame(firstThrow, secondThrow);
+		assertTrue(false == aFrame.isStrike());
+	}
+	
+	@Test
+	public void notStrike2() throws BowlingException {
+		int firstThrow = 8;
+		int secondThrow = 2;
+		
+		Frame aFrame = new Frame(firstThrow, secondThrow);
+		assertTrue(false == aFrame.isStrike())
+	}
 
 }
