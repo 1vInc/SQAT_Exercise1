@@ -267,3 +267,7 @@ EditAction 1474464585115 TestBowling.java 4848 17 79 15
 RefactoringAction 1474464595879 TestBowling.java RENAME strikeAndSpare()=>void strikeAndSpare_test() METHOD
 RefactoringAction 1474464597400 TestBowling.java RENAME strikeAndSpare_test()=>void strikeAndSpare_testStrike() METHOD
 EditAction 1474464603274 TestBowling.java 4859 17 79 15
+UnitTestCaseAction 1474464607750 TestBowling.java OK
+UnitTestSessionAction 1474464607751 TestBowling.java OK
+RefactoringAction 1474464623946 TestBowling.java ADD void strikeAndSpare_testStrike()/2 METHOD
+EditAction 1474464628551 TestBowling.java 5268 18 87 16
