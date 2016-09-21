@@ -254,3 +254,7 @@ EditAction 1474464038862 Frame.java 1497 8 16 0
 UnitTestCaseAction 1474464072755 TestBowling.java OK
 UnitTestSessionAction 1474464072756 TestBowling.java OK
 EditAction 1474464204552 Frame.java 1600 8 17 0
+RefactoringAction 1474464237207 TestBowling.java ADD void spareScore() METHOD
+RefactoringAction 1474464329294 TestBowling.java ADD void gameWithStrike()/2 METHOD
+RefactoringAction 1474464334314 TestBowling.java RENAME gameWithStrike()/2=>void gameWithSpare() METHOD
+EditAction 1474464373590 TestBowling.java 4624 17 75 14
