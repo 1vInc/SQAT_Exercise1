@@ -114,8 +114,8 @@ public class TestBowling {
 	
 	@Test
 	public void notSpare() throws BowlingException {
-		int firstThrow = 0;
-		int secondThrow = 10;
+		int firstThrow = 10;
+		int secondThrow = 0;
 		
 		Frame aFrame = new Frame(firstThrow, secondThrow);
 		assertTrue(true == aFrame.isSpare());
