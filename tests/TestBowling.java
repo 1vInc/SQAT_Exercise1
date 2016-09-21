@@ -180,7 +180,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void strikeAndSpare() throws BowlingException {
+	public void strikeAndSpare_testStrike() throws BowlingException {
 		int[] fGames = { 10,4,7 };
 		int[] sGames = { 0,6,2 };
 		
