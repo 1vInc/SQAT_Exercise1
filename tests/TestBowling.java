@@ -8,5 +8,16 @@ public class TestBowling {
 	public void test() {
 		fail("Not yet implemented");
 	}
+	
+	@Test
+	public void makeAFrame() throws BowlingException {
+		int firstThrow = 2;
+		int secondThrow = 4;
+
+		Frame aFrame = new Frame(firstThrow, secondThrow);
+		
+		assertTrue(firstThrow == aFrame.getFirstThrow() &&
+						secondThrow == aFrame.getSecondThrow());
+	}
 
 }

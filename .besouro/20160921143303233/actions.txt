@@ -74,3 +74,10 @@ RefactoringAction 1474459830455 BowlingGame.java RENAME createGame()=>void creat
 RefactoringAction 1474459834471 BowlingGame.java RENAME createGame(int)=>void createGame(int METHOD
 RefactoringAction 1474459838991 BowlingGame.java RENAME createGame(int=>void createGame(int METHOD
 EditAction 1474459853437 BowlingGame.java 1685 6 10 0
+CompilationAction 1474459855193 BowlingGame.java
+RefactoringAction 1474459879594 BowlingGame.java RENAME createGame(int=>void docreateGame(int METHOD
+RefactoringAction 1474459880612 BowlingGame.java RENAME docreateGame(int=>void doCreateGame(int METHOD
+CompilationAction 1474459884355 BowlingGame.java
+RefactoringAction 1474459941425 TestBowling.java ADD void makeAFrame FIELD
+RefactoringAction 1474459943435 TestBowling.java RENAME makeAFrame=>void makeAFrame() METHOD
+EditAction 1474460164265 TestBowling.java 442 2 5 1

@@ -28,10 +28,10 @@ public class BowlingGame {
 	}
 	
 	public void createGame(int first[], int second[], List<Frame> aGame) throws BowlingException {
-		createGame(first, second, aGame);
+		doCreateGame(first, second, aGame);
 	}
 	
-	private void createGame(int first[], int second[], List<Frame> aGame) throws BowlingException {
+	private void doCreateGame(int first[], int second[], List<Frame> aGame) throws BowlingException {
 		if (first.length != second.length)
 			throw new BowlingException("Throw amounts do not match");
 		
