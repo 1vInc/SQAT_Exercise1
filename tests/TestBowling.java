@@ -181,13 +181,18 @@ public class TestBowling {
 	
 	@Test
 	public void strikeAndSpare() throws BowlingException {
-		int[] fGames = { 10,4 };
-		int[] sGames = { 0,6 };
+		int[] fGames = { 10,4,7 };
+		int[] sGames = { 0,6,2 };
 		
 		Frame fFrame = new Frame(fGames[0], sGames[0]);
 		Frame sFrame = new Frame(fGames[1], sGames[1]);
+		Frame tFrame = new Frame(fGames[2], sGames[2]);
 		
+		fFrame.subsequentFrame(sFrame);
+		sFrame.subsequentFrame(tFrame);
 		
 	}
+	
+	//public void strikeAndSpareGame() throws BowlingException {
 
 }

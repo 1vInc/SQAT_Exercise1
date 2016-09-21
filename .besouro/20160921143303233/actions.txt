@@ -258,3 +258,8 @@ RefactoringAction 1474464237207 TestBowling.java ADD void spareScore() METHOD
 RefactoringAction 1474464329294 TestBowling.java ADD void gameWithStrike()/2 METHOD
 RefactoringAction 1474464334314 TestBowling.java RENAME gameWithStrike()/2=>void gameWithSpare() METHOD
 EditAction 1474464373590 TestBowling.java 4624 17 75 14
+UnitTestCaseAction 1474464377960 TestBowling.java OK
+UnitTestSessionAction 1474464377961 TestBowling.java OK
+RefactoringAction 1474464459460 TestBowling.java ADD void strikeAndSpare()/2 METHOD
+RefactoringAction 1474464460476 TestBowling.java REMOVE strikeAndSpare()/2 METHOD
+EditAction 1474464526706 TestBowling.java 4815 17 78 14
