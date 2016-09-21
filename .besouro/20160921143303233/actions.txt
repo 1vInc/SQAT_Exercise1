@@ -182,3 +182,14 @@ CompilationAction 1474461969506 Frame.java
 CompilationAction 1474461969507 Frame.java
 CompilationAction 1474461969508 Frame.java
 EditAction 1474461970943 Frame.java 1028 6 9 0
+CompilationAction 1474461972611 Frame.java
+CompilationAction 1474461972612 Frame.java
+CompilationAction 1474461974660 Frame.java
+CompilationAction 1474461974661 Frame.java
+UnitTestCaseAction 1474461983760 TestBowling.java OK
+UnitTestSessionAction 1474461983761 TestBowling.java OK
+RefactoringAction 1474461997552 TestBowling.java ADD void isSpare FIELD
+RefactoringAction 1474462004068 TestBowling.java RENAME isSpare=>void isSpare() METHOD
+RefactoringAction 1474462072277 TestBowling.java ADD void isSpare()/2 METHOD
+RefactoringAction 1474462074791 TestBowling.java RENAME isSpare()/2=>void isSpare2() METHOD
+EditAction 1474462082398 TestBowling.java 2719 10 41 8

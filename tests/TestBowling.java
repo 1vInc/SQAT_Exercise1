@@ -93,5 +93,23 @@ public class TestBowling {
 		Frame aFrame = new Frame(firstThrow, secondThrow);
 		assertTrue(false == aFrame.isStrike());
 	}
+	
+	@Test
+	public void isSpare() throws BowlingException {
+		int firstThrow = 8;
+		int secondThrow = 2;
+		
+		Frame aFrame = new Frame(firstThrow, secondThrow);
+		assertTrue(true == aFrame.isSpare());
+	}
+	
+	@Test
+	public void isSpare2() throws BowlingException {
+		int firstThrow = 0;
+		int secondThrow = 10;
+		
+		Frame aFrame = new Frame(firstThrow, secondThrow);
+		assertTrue(true == aFrame.isSpare());
+	}
 
 }

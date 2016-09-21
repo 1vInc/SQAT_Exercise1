@@ -40,7 +40,7 @@ public class Frame {
 	public boolean isSpare(){
 		//to be implemented
 		if ((!isStrike()) && 10 == score())
-			true;
+			return true;
 		
 		return false;
 	}
