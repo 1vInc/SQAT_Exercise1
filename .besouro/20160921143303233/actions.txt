@@ -68,3 +68,9 @@ CompilationAction 1474459585594 BowlingGame.java
 CompilationAction 1474459702493 BowlingGame.java
 CompilationAction 1474459702494 BowlingGame.java
 EditAction 1474459788594 BowlingGame.java 1543 5 9 0
+RefactoringAction 1474459811806 BowlingGame.java ADD void create FIELD
+RefactoringAction 1474459814326 BowlingGame.java RENAME create=>void createGame FIELD
+RefactoringAction 1474459830455 BowlingGame.java RENAME createGame()=>void createGame(int) METHOD
+RefactoringAction 1474459834471 BowlingGame.java RENAME createGame(int)=>void createGame(int METHOD
+RefactoringAction 1474459838991 BowlingGame.java RENAME createGame(int=>void createGame(int METHOD
+EditAction 1474459853437 BowlingGame.java 1685 6 10 0
