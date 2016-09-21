@@ -13,7 +13,7 @@ public class BowlingGame {
 		try {
 			Frame aFrame = new Frame(1,1);
 		} catch (BowlingException e) {
-			System.err.println("Trying to create frame with invalid score");
+			System.err.println("Trying to create invalid frame: " + e.getMessage());
 		}
 	}
 	
