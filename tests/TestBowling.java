@@ -120,5 +120,14 @@ public class TestBowling {
 		Frame aFrame = new Frame(firstThrow, secondThrow);
 		assertTrue(true == aFrame.isSpare());
 	}
+	
+	@Test
+	public void notSpare2() throws BowlingException {
+		int firstThrow = 6;
+		int secondThrow = 3;
+		
+		Frame aFrame = new Frame(firstThrow, secondThrow);
+		assertTrue(true == aFrame.isSpare());
+	}
 
 }

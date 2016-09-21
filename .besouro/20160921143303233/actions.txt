@@ -197,3 +197,6 @@ RefactoringAction 1474462093851 TestBowling.java ADD void isSpare2()/2 METHOD
 RefactoringAction 1474462096865 TestBowling.java RENAME isSpare2()/2=>void notSpare2() METHOD
 EditAction 1474462098172 TestBowling.java 2932 11 45 9
 EditAction 1474462111225 TestBowling.java 2932 11 45 9
+RefactoringAction 1474462119952 TestBowling.java ADD void notSpare()/2 METHOD
+RefactoringAction 1474462122470 TestBowling.java RENAME notSpare()/2=>void notSpare2() METHOD
+EditAction 1474462127576 TestBowling.java 3145 12 49 10
