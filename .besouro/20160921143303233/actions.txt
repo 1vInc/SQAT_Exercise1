@@ -244,3 +244,8 @@ RefactoringAction 1474463660411 TestBowling.java ADD void gameWithStrike() METHO
 RefactoringAction 1474463734733 Frame.java ADD void sumOfThrows() METHOD
 EditAction 1474463751690 Frame.java 1511 8 15 0
 EditAction 1474463771581 Frame.java 1513 8 16 0
+UnitTestCaseAction 1474463790763 TestBowling.java FAIL
+UnitTestSessionAction 1474463790764 TestBowling.java FAIL
+UnitTestCaseAction 1474463881845 TestBowling.java OK
+UnitTestSessionAction 1474463881846 TestBowling.java OK
+EditAction 1474463970726 Frame.java 1502 8 16 0

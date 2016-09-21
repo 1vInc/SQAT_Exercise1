@@ -91,7 +91,13 @@ public class TestBowling {
 	
 	@Test
 	public void gameWithStrike() throws BowlingException {
-		fail("Not yet implemented");
+		int[] fGames = { 10,3,7,3,4,5,3,4,8,2 };
+		int[] sGames = { 0,6,2,6,4,3,3,5,1,6 };
+		
+		BowlingGame bowlingGame = new BowlingGame();
+		bowlingGame.createGame(fGames, sGames);
+		
+		assertTrue(bowlingGame.score() == 94);
 	}
 	
 	@Test
