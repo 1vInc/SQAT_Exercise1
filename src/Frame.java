@@ -58,8 +58,8 @@ public class Frame {
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
 		//to be implemented
-		/*if ((!isStrike()) && 10 == score())
-			return true;*/
+		if ((!isStrike()) && 10 == sumOfThrows())
+			return true;
 		
 		return false;
 	}

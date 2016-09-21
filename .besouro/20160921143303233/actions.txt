@@ -243,3 +243,4 @@ UnitTestSessionAction 1474463502897 TestBowling.java FAIL
 RefactoringAction 1474463660411 TestBowling.java ADD void gameWithStrike() METHOD
 RefactoringAction 1474463734733 Frame.java ADD void sumOfThrows() METHOD
 EditAction 1474463751690 Frame.java 1511 8 15 0
+EditAction 1474463771581 Frame.java 1513 8 16 0
