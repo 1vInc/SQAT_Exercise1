@@ -118,7 +118,7 @@ public class TestBowling {
 		int secondThrow = 0;
 		
 		Frame aFrame = new Frame(firstThrow, secondThrow);
-		assertTrue(true == aFrame.isSpare());
+		assertTrue(false == aFrame.isSpare());
 	}
 	
 	@Test
@@ -127,7 +127,7 @@ public class TestBowling {
 		int secondThrow = 3;
 		
 		Frame aFrame = new Frame(firstThrow, secondThrow);
-		assertTrue(true == aFrame.isSpare());
+		assertTrue(false == aFrame.isSpare());
 	}
 
 }
