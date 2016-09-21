@@ -59,7 +59,7 @@ public class BowlingGame {
 	// Returns the game score
 	public int score(){
 		//to be implemented: should return game score 
-		return return countScore();
+		return countScore();
 	}
 	
 	private int countScore() {
