@@ -206,3 +206,4 @@ UnitTestSessionAction 1474462156775 TestBowling.java OK
 RefactoringAction 1474462323625 TestBowling.java ADD void strikeAnd FIELD
 RefactoringAction 1474462330641 TestBowling.java RENAME strikeAnd=>void strikeAndSpare() METHOD
 EditAction 1474462365115 TestBowling.java 3274 13 51 10
+EditAction 1474462544432 Frame.java 1039 6 10 0
