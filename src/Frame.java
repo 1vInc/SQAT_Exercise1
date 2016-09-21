@@ -9,8 +9,6 @@ public class Frame {
 		if ((firstThrow + secondThrow) > 10)
 			throw new BowlingException("Sum of throws is over maximum");
 		
-		
-		
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 	}
