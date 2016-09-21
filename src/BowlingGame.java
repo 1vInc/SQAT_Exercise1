@@ -29,12 +29,13 @@ public class BowlingGame {
 		System.err.println("Trying to create invalid game: " + e.getMessage());
 	}*/
 	
-	public void createGame(int first[], int second[]) throws BowlingException {
-		doCreateGame(first, second);
+	public void createGame(int firstThrows[], int secondThrows[]) throws BowlingException {
+		doCreateGame(firstThrows, secondThrows);
 	}
 	
 	private void doCreateGame(int first[], int second[]) throws BowlingException {
 		Frame newFrame = null;
+		Frame prevFrame = null;
 		
 		if (first.length != second.length)
 			throw new BowlingException("Throw amounts do not match");
@@ -45,7 +46,9 @@ public class BowlingGame {
 		for (int i = 0; i < first.length; i++) {
 			newFrame = new Frame(first[i], second[i]);
 			addFrame(newFrame);
-			if (i < )
+			if (null != prevFrame)
+				prevFrame.subsequentFrame(newFrame);
+			prevFrame = newFrame;
 		}
 	}
 	
@@ -53,7 +56,6 @@ public class BowlingGame {
 	public void addFrame(Frame frame){
 		//to be implemented
 		game.add(frame);
-		if ()
 	}
 	
 	// Sets the bonus throws at the end of the game

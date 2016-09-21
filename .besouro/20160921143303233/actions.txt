@@ -214,3 +214,23 @@ RefactoringAction 1474462770351 Frame.java RENAME subsequentFrame()=>void subseq
 EditAction 1474462794217 Frame.java 1311 7 13 0
 EditAction 1474462829338 BowlingGame.java 1814 7 9 0
 EditAction 1474462912949 BowlingGame.java 1892 7 5 0
+CompilationAction 1474462914599 BowlingGame.java
+CompilationAction 1474462914600 BowlingGame.java
+CompilationAction 1474462914601 BowlingGame.java
+CompilationAction 1474462914602 BowlingGame.java
+CompilationAction 1474462996978 BowlingGame.java
+CompilationAction 1474462996980 BowlingGame.java
+CompilationAction 1474462996981 BowlingGame.java
+CompilationAction 1474462996982 BowlingGame.java
+CompilationAction 1474462997136 BowlingGame.java
+CompilationAction 1474462997138 BowlingGame.java
+CompilationAction 1474463028520 BowlingGame.java
+CompilationAction 1474463028522 BowlingGame.java
+CompilationAction 1474463028670 BowlingGame.java
+CompilationAction 1474463028671 BowlingGame.java
+CompilationAction 1474463142399 BowlingGame.java
+CompilationAction 1474463142400 BowlingGame.java
+CompilationAction 1474463142550 BowlingGame.java
+CompilationAction 1474463163352 BowlingGame.java
+RefactoringAction 1474463207074 TestBowling.java ADD void strikeScore() METHOD
+EditAction 1474463318427 Frame.java 1428 7 14 0

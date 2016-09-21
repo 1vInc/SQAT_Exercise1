@@ -33,6 +33,10 @@ public class Frame {
 	//returns the score of a single frame
 	public int score(){
 		//to be implemented
+		
+		if (null != subsequentFrame && isStrike())
+			return firstThrow + secondThrow + subsequentFrame.score();
+		
 		return firstThrow + secondThrow;
 	}
 
