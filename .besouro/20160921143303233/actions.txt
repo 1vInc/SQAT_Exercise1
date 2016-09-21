@@ -154,3 +154,13 @@ CompilationAction 1474461208031 TestBowling.java
 CompilationAction 1474461263466 TestBowling.java
 CompilationAction 1474461263467 TestBowling.java
 EditAction 1474461264733 TestBowling.java 1655 5 16 2
+CompilationAction 1474461266378 TestBowling.java
+CompilationAction 1474461266379 TestBowling.java
+CompilationAction 1474461267631 TestBowling.java
+CompilationAction 1474461267822 TestBowling.java
+CompilationAction 1474461313375 TestBowling.java
+CompilationAction 1474461313524 TestBowling.java
+CompilationAction 1474461357413 TestBowling.java
+UnitTestCaseAction 1474461360845 TestBowling.java OK
+UnitTestSessionAction 1474461360846 TestBowling.java OK
+EditAction 1474461655443 Frame.java 975 6 10 0

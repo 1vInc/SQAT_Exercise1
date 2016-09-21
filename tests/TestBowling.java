@@ -49,10 +49,9 @@ public class TestBowling {
 		int[] sGames = { 5,6,2,6,4,3,3,5,1,6 };
 		
 		BowlingGame bowlingGame = new BowlingGame();
-		
 		bowlingGame.createGame(fGames, sGames);
 		
-		AssertTrue(bowlingGame.score() == countGameScore(fGames, sGames)),
+		assertTrue(bowlingGame.score() == countGameScore(fGames, sGames));
 	}
 	
 	private int countGameScore(int[] fGames, int[] sGames) throws BowlingException {
