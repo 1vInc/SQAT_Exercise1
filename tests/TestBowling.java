@@ -91,7 +91,7 @@ public class TestBowling {
 		int secondThrow = 2;
 		
 		Frame aFrame = new Frame(firstThrow, secondThrow);
-		assertTrue(false == aFrame.isStrike())
+		assertTrue(false == aFrame.isStrike());
 	}
 
 }
