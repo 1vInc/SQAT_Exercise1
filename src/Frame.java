@@ -22,6 +22,13 @@ public class Frame {
 	public int getSecondThrow() {
 		return secondThrow;
 	}
+	
+	public void subsequentFrame(Frame frame) throws BowlingException {
+		if (null != subsequentFrame)
+			throw new BowlingException("Frame already has a subsequent frame");
+		
+		subsequentFrame = frame;
+	}
 
 	//returns the score of a single frame
 	public int score(){

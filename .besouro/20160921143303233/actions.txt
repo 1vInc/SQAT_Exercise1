@@ -209,3 +209,6 @@ EditAction 1474462365115 TestBowling.java 3274 13 51 10
 EditAction 1474462544432 Frame.java 1039 6 10 0
 RefactoringAction 1474462636063 Frame.java ADD Frame subsequentFrame FIELD
 EditAction 1474462665391 Frame.java 1099 6 11 0
+RefactoringAction 1474462680179 Frame.java ADD void subsequentFrame() METHOD
+RefactoringAction 1474462770351 Frame.java RENAME subsequentFrame()=>void subsequentFrame(Frame) METHOD
+EditAction 1474462794217 Frame.java 1311 7 13 0
