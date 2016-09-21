@@ -280,3 +280,4 @@ RefactoringAction 1474464663067 TestBowling.java ADD BowlingGame bowlingGame FIE
 RefactoringAction 1474464663069 TestBowling.java ADD void assertTrue() METHOD
 EditAction 1474464703048 TestBowling.java 5496 19 92 17
 EditAction 1474464715806 TestBowling.java 5497 19 92 17
+EditAction 1474464718703 TestBowling.java 5497 19 92 17
