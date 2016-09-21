@@ -143,3 +143,14 @@ RefactoringAction 1474460934370 TestBowling.java RENAME countGameScore=>int coun
 RefactoringAction 1474460946897 TestBowling.java RENAME countGameScore()=>int countGameScore(int METHOD
 RefactoringAction 1474460950918 TestBowling.java RENAME countGameScore(int=>int countGameScore(int METHOD
 EditAction 1474461153982 TestBowling.java 1547 5 16 2
+CompilationAction 1474461155403 TestBowling.java
+CompilationAction 1474461155404 TestBowling.java
+CompilationAction 1474461165860 TestBowling.java
+CompilationAction 1474461165862 TestBowling.java
+CompilationAction 1474461166012 TestBowling.java
+CompilationAction 1474461166013 TestBowling.java
+CompilationAction 1474461208028 TestBowling.java
+CompilationAction 1474461208031 TestBowling.java
+CompilationAction 1474461263466 TestBowling.java
+CompilationAction 1474461263467 TestBowling.java
+EditAction 1474461264733 TestBowling.java 1655 5 16 2

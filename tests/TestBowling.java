@@ -52,17 +52,17 @@ public class TestBowling {
 		
 		bowlingGame.createGame(fGames, sGames);
 		
-		
+		AssertTrue(bowlingGame.score() == countGameScore(fGames, sGames)),
 	}
 	
 	private int countGameScore(int[] fGames, int[] sGames) throws BowlingException {
 		int score = 0;
 		
-		if (fGames.size != sGames.size)
+		if (fGames.length != sGames.length)
 			throw new BowlingException("Amount of first and second throws not equal");
 		
-		for (int i = 0; i < fGames.size) {
-			
+		for (int i = 0; i < fGames.length; i++) {
+			score += fGames[i] + sGames[i];
 		}
 		
 		return score;
