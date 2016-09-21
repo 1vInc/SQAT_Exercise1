@@ -88,3 +88,8 @@ RefactoringAction 1474460202937 TestBowling.java ADD void frameScore FIELD
 RefactoringAction 1474460204450 TestBowling.java RENAME frameScore=>void frameScore() METHOD
 EditAction 1474460236626 TestBowling.java 617 2 7 1
 EditAction 1474460298774 TestBowling.java 682 2 8 2
+UnitTestCaseAction 1474460303497 TestBowling.java OK
+UnitTestSessionAction 1474460303498 TestBowling.java OK
+RefactoringAction 1474460325684 TestBowling.java ADD void makeGame FIELD
+RefactoringAction 1474460332198 TestBowling.java RENAME makeGame=>void makeGame() METHOD
+EditAction 1474460428556 TestBowling.java 1002 3 8 2

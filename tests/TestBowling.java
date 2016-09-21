@@ -29,5 +29,17 @@ public class TestBowling {
 		
 		assertTrue((firstThrow + secondThrow) == aFrame.score());
 	}
+	
+	@Test
+	public void makeGame() throws BowlingException() {
+		int[] fGames = { 1,3,7,3,4,5,3,4,8,2 };
+		int[] sGames = { 5,6,2,6,4,3,3,5,1,6 };
+		
+		try {
+			createGame(fGames, sGames, game);
+		} catch (BowlingException e) {
+			System.err.println("Trying to create invalid game: " + e.getMessage());
+		}
+	}
 
 }
