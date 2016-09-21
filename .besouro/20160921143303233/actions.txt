@@ -173,3 +173,6 @@ RefactoringAction 1474461773177 TestBowling.java RENAME notStrike()/2=>void notS
 EditAction 1474461845633 TestBowling.java 2294 8 29 5
 CompilationAction 1474461847244 TestBowling.java
 EditAction 1474461853904 TestBowling.java 2295 8 33 6
+UnitTestCaseAction 1474461857106 TestBowling.java OK
+UnitTestSessionAction 1474461857107 TestBowling.java OK
+EditAction 1474461950788 Frame.java 1018 6 10 0
