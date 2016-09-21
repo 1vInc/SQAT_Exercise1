@@ -7,7 +7,7 @@ public class Frame {
 			throw new BowlingException("Negative throw");
 		
 		if ((firstThrow + secondThrow) > 10)
-			throw new BowlingException("Sum of throws is too much");
+			throw new BowlingException("Sum of throws is over maximum");
 		
 		
 		
