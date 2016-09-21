@@ -81,3 +81,6 @@ CompilationAction 1474459884355 BowlingGame.java
 RefactoringAction 1474459941425 TestBowling.java ADD void makeAFrame FIELD
 RefactoringAction 1474459943435 TestBowling.java RENAME makeAFrame=>void makeAFrame() METHOD
 EditAction 1474460164265 TestBowling.java 442 2 5 1
+UnitTestCaseAction 1474460174628 TestBowling.java FAIL
+UnitTestSessionAction 1474460174629 TestBowling.java FAIL
+EditAction 1474460185456 TestBowling.java 446 1 4 1

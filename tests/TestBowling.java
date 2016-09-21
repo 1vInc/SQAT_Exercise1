@@ -4,10 +4,10 @@ import org.junit.Test;
 
 public class TestBowling {
 
-	@Test
+	/*@Test
 	public void test() {
 		fail("Not yet implemented");
-	}
+	}*/
 	
 	@Test
 	public void makeAFrame() throws BowlingException {
